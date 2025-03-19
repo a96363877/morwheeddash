@@ -381,7 +381,7 @@ export default function NotificationsPage() {
                         </Badge>
                       </div>
                     </td>
-                    <td className="px-4 py-3">خطوه - {notification.page}</td>
+                    <td className="px-4 py-3">  {notification.page}</td>
                     <td className="px-4 py-3">
                       {notification.createdDate &&
                         formatDistanceToNow(new Date(notification.createdDate), {
